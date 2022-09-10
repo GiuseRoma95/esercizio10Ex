@@ -322,22 +322,17 @@ footer h2 {
 
   .notebook {
     height: 50vh;
-    width: 30%;
+    width: 38%;
   }
 
   #nb_section {
     display: flex;
     justify-content: center;
   }
-  
+
   header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
   }
-
-
-  }
-  
-  
-
+}

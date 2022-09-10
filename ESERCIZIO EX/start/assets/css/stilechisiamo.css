@@ -173,6 +173,8 @@ footer h2 {
   .list {
     display: none;
   }
+
+  .table2 {display: none;}
 }
 
 @media screen and (min-width: 768px) {
@@ -183,6 +185,7 @@ footer h2 {
   header {
     display: flex;
     flex-wrap: nowrap;
+
   }
 
   .contatti {
@@ -216,6 +219,7 @@ footer h2 {
     color: white;
   }
   
+  .table2 {margin-right: 5vw;}
   .table2 tr{font-size: 1.2rem;}
 
   .table2 th {

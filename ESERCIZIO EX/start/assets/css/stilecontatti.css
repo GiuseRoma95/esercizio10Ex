@@ -83,9 +83,11 @@ button:hover {
   transition: 0.8s;
   transform: scale(1.1);
 }
+
+
 /*MAIN*/
 
-main
+
 /* FOOTER */
 
 .social_icon ion-icon {
@@ -137,6 +139,8 @@ footer h2 {
   .list {
     display: none;
   }
+
+  
 }
 
 @media screen and (min-width: 768px) {
