@@ -44,12 +44,12 @@ main,
 table {
   margin: 0 1em;
 }
-/* HEADER */
-header ion-icon {
+
+nav ion-icon {
   padding: 0;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   margin: 1em;
@@ -74,8 +74,9 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
   cursor: pointer;
+  font-family: "Fira Sans", sans-serif;
 }
 
 button:hover {
@@ -182,7 +183,7 @@ footer h2 {
     display: none;
   }
 
-  header {
+  nav {
     display: flex;
     flex-wrap: nowrap;
 
@@ -226,7 +227,7 @@ footer h2 {
   padding-top: 20px;}
 
   @media screen and (min-width: 1024px) {
-    .img1, .img2 {height: 50vh;
+    .img1, .img2 {height: 30vh;
     }
 
     main{
@@ -240,7 +241,7 @@ footer h2 {
   padding-top: 12px;}
   }
 
-  header {
+  nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;

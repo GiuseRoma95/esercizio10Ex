@@ -44,11 +44,11 @@ main,
   margin: 0 1em;
 }
 /* HEADER */
-header ion-icon {
+nav ion-icon {
   padding: 0;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   margin: 1em;
@@ -65,7 +65,7 @@ ul li {
 }
 
 /* MAIN */
-nav {
+header {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-position: 50% 100%;
@@ -76,7 +76,7 @@ nav {
   filter: grayscale(50%);
   text-shadow: 2px 2px #050505;
 }
-nav h1 {
+header h1 {
   margin-bottom: 20px;
 }
 
@@ -89,8 +89,9 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
   cursor: pointer;
+  font-family: "Fira Sans", sans-serif;
 }
 
 button:hover {
@@ -200,12 +201,12 @@ footer h2 {
     display: none;
   }
 
-  header {
+  nav {
     display: flex;
     flex-wrap: nowrap;
   }
 
-  nav {
+  header {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: 0% 60%;
@@ -218,7 +219,7 @@ footer h2 {
     text-shadow: 2px 2px #050505;
   }
 
-  nav p {
+  header p {
     padding: 2vh 0 0 0;
   }
 
@@ -303,7 +304,7 @@ footer h2 {
 }
 
 @media screen and (min-width: 1024px) {
-  nav {
+  header {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: 0% 60%;
@@ -322,7 +323,7 @@ footer h2 {
 
   .notebook {
     height: 50vh;
-    width: 38%;
+    width: 40%;
   }
 
   #nb_section {
@@ -330,7 +331,7 @@ footer h2 {
     justify-content: center;
   }
 
-  header {
+  nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;

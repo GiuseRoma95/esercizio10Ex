@@ -43,11 +43,11 @@ main {
   margin: 0 1em;
 }
 /* HEADER */
-header ion-icon {
+nav ion-icon {
   padding: 0;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   margin: 1em;
@@ -84,10 +84,30 @@ button:hover {
   transform: scale(1.1);
 }
 
-
 /*MAIN*/
 
+.h2_first {padding-bottom: 10px;}
 
+#areainp {display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+}
+
+input {padding: 10px 10px ;
+margin: 8px 8px;
+font-family: "Fira Sans", sans-serif;}
+
+textarea {margin: 8px;
+  font-family: "Fira Sans", sans-serif;
+padding: 18px 20px;}
+
+.sendbut {margin: 0 80px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+.h2_second {padding: 30px 0 20px 0;}
 /* FOOTER */
 
 .social_icon ion-icon {
@@ -139,16 +159,18 @@ footer h2 {
   .list {
     display: none;
   }
-
-  
 }
 
 @media screen and (min-width: 768px) {
+  main div {
+    display: flex;
+    flex-direction: column;
+  }
   .icon1 {
     display: none;
   }
 
-  header {
+  nav {
     display: flex;
     flex-wrap: nowrap;
   }
@@ -164,16 +186,69 @@ footer h2 {
   h3 {
     font-size: 1rem;
   }
-  @media screen and (min-width: 1024px) {
-  }
 
-  footer div {
-    padding: 0 2px 0 2px;
-  }
+  .all {display: flex;
+    flex-direction: row;}
 
-  header {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
+    #areainp {display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 30vh;
+    }
+    
+    input {padding: 10px 10px ;
+    margin: 8px 8px;
+    font-family: "Fira Sans", sans-serif;}
+    
+    textarea {margin: 8px;
+      font-family: "Fira Sans", sans-serif;
+    padding: 18px 20px;}
+      
+      .sendbut {margin: 10px 80px;
+        padding: 20px 0px;
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 400;
+      }
+    
+  
 }
+
+@media screen and (min-width: 1024px) {footer div {
+  padding: 0 2px 0 2px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.all {display: flex;
+  flex-direction: row;
+    align-items: baseline;}
+
+  #areainp {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    width: 500px;
+  }
+
+  .second_part {width: 400px;}
+  
+  input {padding: 10px 10px ;
+  margin: 8px 8px;
+  font-family: "Fira Sans", sans-serif;}
+  
+  textarea {margin: 8px;
+    font-family: "Fira Sans", sans-serif;
+  padding: 30px 20px;}
+    
+    .sendbut {margin: 10px 80px;
+      padding: 20px 0px;
+      font-family: "Fira Sans", sans-serif;
+      font-weight: 400;
+    }
+}
+
+
