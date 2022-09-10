@@ -321,7 +321,23 @@ footer h2 {
   }
 
   .notebook {
-    height: 55vh;
-    width: 40%;
+    height: 50vh;
+    width: 30%;
   }
-}
+
+  #nb_section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+
+  }
+  
+  
+

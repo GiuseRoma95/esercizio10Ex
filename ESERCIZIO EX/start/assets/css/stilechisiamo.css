@@ -118,7 +118,7 @@ td {
 }
 
 .grey_space {
-  background-color: rgb(195, 202, 202);
+  background-color: #d4dde6;
 }
 
 /* FOOTER */
@@ -202,6 +202,44 @@ footer h2 {
     padding: 0 2px 0 2px;
   }
 
-  @media screen and (min-width: 1024px) {
+  .immagini {display: flex;
+  justify-content: space-between;
+  gap: 4vw;}
+
+  .img1, .img2 {height: 25vh;
   }
+  
+  .table1 {display: none;}
+
+  .blu_space { background-color: #66819f;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .table2 tr{font-size: 1.2rem;}
+
+  .table2 th {
+  padding-top: 20px;}
+
+  @media screen and (min-width: 1024px) {
+    .img1, .img2 {height: 50vh;
+    }
+
+    main{
+  margin: 0 5em;}
+
+  .table2 {
+    margin: 0 8em;
+  }
+
+  .table2 th, .table2 td {text-align: center;
+  padding-top: 12px;}
+  }
+
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  
 }
