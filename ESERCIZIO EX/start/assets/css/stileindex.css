@@ -51,7 +51,9 @@ nav ion-icon {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 1em;
+  padding: 10px 4px 0px 4px;
+  margin: 0 0 0.3em 0;
+  box-shadow: 0 5px 4px #d3d3d3;
 }
 
 a {
@@ -95,10 +97,11 @@ button {
 }
 
 button:hover {
-  box-shadow: 0px 1px 8px 5px black;
+  box-shadow: 0px 1px 8px 5px #d3d3d3;
   transition: 0.8s;
   transform: scale(1.1);
 }
+
 /*MAIN*/
 .first_title {
   padding: 0.5em 0em 0.5em;
@@ -124,8 +127,8 @@ button:hover {
 }
 
 .notebook {
-  height: 40vh;
-  width: 70vw;
+  height: 40%;
+  width: 70%;
   margin-top: 3vh;
   margin-bottom: 3vh;
   padding: auto 0;
@@ -142,8 +145,16 @@ button:hover {
   font-size: 2rem;
 }
 
+article ion-icon {
+  max-width: 30%;
+}
+
 .social_icon ion-icon {
   font-size: 30px;
+}
+
+.part2 ion-icon {
+  font-size: 135%;
 }
 
 h3 {
@@ -253,12 +264,15 @@ footer h2 {
     font-size: 15px;
   }
   .notebook {
-    height: 40vh;
-    width: 50%;
+    height: 40%;
+    width: 30%;
   }
 
   #nb_section {
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
   }
 
   .part2 {
@@ -287,11 +301,6 @@ footer h2 {
 
   .contatti {
     display: flex;
-    flex-wrap: nowrap;
-    align-content: space-between;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1vh;
   }
 
   h3 {
@@ -322,8 +331,8 @@ footer h2 {
   }
 
   .notebook {
-    height: 50vh;
-    width: 40%;
+    height: 5%;
+    width: 30%;
   }
 
   #nb_section {

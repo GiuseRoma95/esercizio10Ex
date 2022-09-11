@@ -50,7 +50,9 @@ nav ion-icon {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 1em;
+  padding: 10px 4px 0px 4px;
+  margin: 0 0 0.3em 0;
+  box-shadow: 0 5px 4px #d3d3d3;
 }
 
 a {
@@ -86,28 +88,38 @@ button:hover {
 
 /*MAIN*/
 
-.h2_first {padding-bottom: 10px;}
+.h2_first {
+  padding-bottom: 10px;
+}
 
-#areainp {display: flex;
+#areainp {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 30vh;
 }
 
-input {padding: 10px 10px ;
-margin: 8px 8px;
-font-family: "Fira Sans", sans-serif;}
-
-textarea {margin: 8px;
+input {
+  padding: 10px 10px;
+  margin: 8px 8px;
   font-family: "Fira Sans", sans-serif;
-padding: 18px 20px;}
+}
 
-.sendbut {margin: 0 80px;
+textarea {
+  margin: 8px;
+  font-family: "Fira Sans", sans-serif;
+  padding: 18px 20px;
+}
+
+.sendbut {
+  margin: 0 80px;
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
 }
 
-.h2_second {padding: 30px 0 20px 0;}
+.h2_second {
+  padding: 30px 0 20px 0;
+}
 /* FOOTER */
 
 .social_icon ion-icon {
@@ -128,6 +140,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  flex-direction: column;
+  gap: 5px;
 }
 
 footer input {
@@ -176,79 +190,89 @@ footer h2 {
   }
   .contatti {
     display: flex;
-    flex-wrap: nowrap;
-    align-content: space-between;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1vh;
   }
 
   h3 {
     font-size: 1rem;
   }
 
-  .all {display: flex;
-    flex-direction: row;}
+  .all {
+    display: flex;
+    flex-direction: row;
+  }
 
-    #areainp {display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 30vh;
-    }
-    
-    input {padding: 10px 10px ;
-    margin: 8px 8px;
-    font-family: "Fira Sans", sans-serif;}
-    
-    textarea {margin: 8px;
-      font-family: "Fira Sans", sans-serif;
-    padding: 18px 20px;}
-      
-      .sendbut {margin: 10px 80px;
-        padding: 20px 0px;
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 400;
-      }
-    
-  
-}
-
-@media screen and (min-width: 1024px) {footer div {
-  padding: 0 2px 0 2px;
-}
-
-nav {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-}
-
-.all {display: flex;
-  flex-direction: row;
-    align-items: baseline;}
-
-  #areainp {display: flex;
+  #areainp {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     height: 30vh;
-    width: 500px;
   }
 
-  .second_part {width: 400px;}
-  
-  input {padding: 10px 10px ;
-  margin: 8px 8px;
-  font-family: "Fira Sans", sans-serif;}
-  
-  textarea {margin: 8px;
+  input {
+    padding: 10px 10px;
+    margin: 8px 8px;
     font-family: "Fira Sans", sans-serif;
-  padding: 30px 20px;}
-    
-    .sendbut {margin: 10px 80px;
-      padding: 20px 0px;
-      font-family: "Fira Sans", sans-serif;
-      font-weight: 400;
-    }
+  }
+
+  textarea {
+    margin: 8px;
+    font-family: "Fira Sans", sans-serif;
+    padding: 18px 20px;
+  }
+
+  .sendbut {
+    margin: 10px 80px;
+    padding: 20px 0px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+  }
 }
 
+@media screen and (min-width: 1024px) {
+  footer div {
+    padding: 0 2px 0 2px;
+  }
 
+  nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .all {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  #areainp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    width: 40%;
+  }
+
+  .second_part {
+    width: 60%;
+  }
+
+  input {
+    padding: 10px 10px;
+    margin: 8px 8px;
+    font-family: "Fira Sans", sans-serif;
+  }
+
+  textarea {
+    margin: 8px;
+    font-family: "Fira Sans", sans-serif;
+    padding: 32px 20px;
+  }
+
+  .sendbut {
+    margin: 10px 80px;
+    padding: 20px 0px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+  }
+}
